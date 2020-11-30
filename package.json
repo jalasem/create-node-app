@@ -1,0 +1,27 @@
+{
+  "name": "express-api-starter",
+  "version": "1.0.0",
+  "description": "Scaffolds a minimal express API with babel, eslint, nodemon etc configs",
+  "main": "index.js",
+  "bin": {
+    "execute": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalasem/express-api-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalasem/express-api-starter/issues"
+  },
+  "homepage": "https://github.com/jalasem/express-api-starter#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
