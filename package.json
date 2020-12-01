@@ -1,10 +1,10 @@
 {
-  "name": "express-api-starter",
+  "name": "@jalasem/create-node-app",
   "version": "1.0.0",
   "description": "Scaffolds a minimal express API with babel, eslint, nodemon etc configs",
   "main": "index.js",
   "bin": {
-    "execute": "index.js"
+    "@jalasem/create-node-app": "index.js"
   },
   "scripts": {
     "start": "node index.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jalasem/express-api-starter.git"
+    "url": "git+https://github.com/jalasem/create-node-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jalasem/express-api-starter/issues"
+    "url": "https://github.com/jalasem/create-node-app/issues"
   },
-  "homepage": "https://github.com/jalasem/express-api-starter#readme",
+  "homepage": "https://github.com/jalasem/create-node-app#readme",
   "dependencies": {
     "inquirer": "^7.3.3"
   }
