@@ -1,11 +1,18 @@
 #!/usr/bin/env node
 const inquirer = require("inquirer");
-const questions = require("./lib/questions");
+
+const { configs, questions } = require("./lib/questions");
 
 (async () => {
   try {
     const responses = await inquirer.prompt(questions);
-    console.log(JSON.stringify(responses, null, 2));
+
+    const configuration = {
+      ...configs,
+      ...responses,
+    };
+
+    console.log(JSON.stringify(configuration, null, 2));
   } catch (err) {
     console.log(err);
   }
