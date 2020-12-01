@@ -1,3 +1,3 @@
 # create-node-app
 
-Scaffolds a minimal express API with babel, eslint, nodemon etc configs
+Scaffolds a minimal node project with most popular configurations e.g with babel, eslint, nodemon etc configs
